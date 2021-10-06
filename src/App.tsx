@@ -1,5 +1,7 @@
 import React from 'react';
 
-const App: React.FC = () => <p>NILE IS WORKING</p>;
+import Routes from '@/routes';
+
+const App: React.FC = () => <Routes />;
 
 export default App;
