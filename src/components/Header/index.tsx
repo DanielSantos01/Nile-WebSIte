@@ -1,6 +1,7 @@
 /* eslint-disable global-require */
 /* eslint-disable arrow-body-style */
 import React, { useCallback } from 'react';
+import { useHistory } from 'react-router-dom';
 
 import logo from '../../assets/logo.png';
 import headerOptions from './data/options';
@@ -14,6 +15,8 @@ import {
 } from './styles';
 
 const Header: React.FC = () => {
+  const { push } = useHistory();
+
   const mountOptions = useCallback(() => {
     const options: JSX.Element[] = headerOptions.map((data) => <Label>{data.label}</Label>);
     return options;
@@ -26,7 +29,7 @@ const Header: React.FC = () => {
         {mountOptions()}
       </RowContainer>
 
-      <LoginContainer>
+      <LoginContainer onClick={() => push('/login')}>
         <Label style={{ marginRight: 10 }}>Login</Label>
         <LoginIcon />
       </LoginContainer>
