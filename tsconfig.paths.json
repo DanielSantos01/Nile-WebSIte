@@ -1,10 +1,11 @@
 {
     "compilerOptions": {
-        "rootDir": "./src",
-        "baseUrl": "./src",
+        "baseUrl": ".",
         "paths": {
-            "@/*": ["*"],
-            "@styles/*": ["styles/*"]
+            "@/*": ["./src/*"],
+            "@styles/*": ["./src/styles/*"],
+            "@routes/*": ["./src/routes/*"],
+            "@screens/*": ["./src/screens/*"]
         }
     }
 }

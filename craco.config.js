@@ -1,14 +1,9 @@
-const CracoAlias = require('craco-alias');
+const { CracoAliasPlugin, configPaths } = require('react-app-rewire-alias');
 
 module.exports = {
-  plugins: [
-    {
-      plugin: CracoAlias,
-      options: {
-        source: 'tsconfig',
-        baseUrl: './src',
-        tsConfigPath: './tsconfig.paths.json',
-      },
-    },
-  ],
+  plugins: [{
+    plugin: CracoAliasPlugin,
+    source: 'tsconfig',
+    options: { alias: configPaths('./tsconfig.paths.json') },
+  }],
 };
