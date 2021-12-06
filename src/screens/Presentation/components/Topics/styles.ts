@@ -8,6 +8,7 @@ export const ContentContainer = styled.div`
   align-items: center;
   width: 100%;
   padding: 30px 70px;
+  background-color: ${({ theme }) => theme.colors.secondary};
 `;
 
 export const InfraContainer = styled.div`
