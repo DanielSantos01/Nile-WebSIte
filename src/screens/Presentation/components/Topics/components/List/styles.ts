@@ -21,6 +21,7 @@ export const Icon = styled(AiFillCheckCircle)`
 `;
 
 export const Label = styled.p`
+  font-family: ${({ theme }) => theme.fonts.primary};
   color: black;
   font-weight: 600;
   font-size: 26px;

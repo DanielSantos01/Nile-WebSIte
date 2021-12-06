@@ -9,6 +9,8 @@ export const ContentContainer = styled.div`
   width: 100%;
   padding: 30px 70px;
   background-color: ${({ theme }) => theme.colors.secondary};
+  box-shadow: 0 2px 10px -8px rgba(0, 0, 0, 0.8);
+  padding-bottom: 5px;
 `;
 
 export const InfraContainer = styled.div`
