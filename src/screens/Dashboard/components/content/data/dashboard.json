@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Temperatura",
+    "description": "lorem ipsum",
+    "unit": "°C",
+    "value": 45
+  },
+  {
+    "title": "Oxigênio dissolvido",
+    "description": "lorem ipsum",
+    "unit": "mg/L",
+    "value": 2.1
+  },
+  {
+    "title": "Turbidez",
+    "description": "lorem ipsum",
+    "unit": "NTU",
+    "value": 18.9
+  },
+  {
+    "title": "PH",
+    "description": "lorem ipsum",
+    "unit": "",
+    "value": 3
+  }
+]
