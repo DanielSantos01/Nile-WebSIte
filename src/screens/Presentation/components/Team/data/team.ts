@@ -1,30 +1,38 @@
+import edna from '../../../../../assets/edna.png';
+import felipe from '../../../../../assets/felipe.jpeg';
+import vini from '../../../../../assets/vini.png';
+import gabriel from '../../../../../assets/gabriel.png';
+import alexandre from '../../../../../assets/alexandre.png';
+import sara from '../../../../../assets/sara.png';
+import daniel from '../../../../../assets/daniel.png';
+
 export const team = [
   {
     name: 'Alexandre',
-    picture: 'https://cdn-icons-png.flaticon.com/512/149/149071.png',
+    picture: alexandre,
   },
   {
     name: 'Daniel',
-    picture: 'https://cdn-icons-png.flaticon.com/512/149/149071.png',
+    picture: daniel,
   },
   {
     name: 'Felipe',
-    picture: 'https://cdn-icons-png.flaticon.com/512/149/149071.png',
+    picture: felipe,
   },
   {
     name: 'Sara',
-    picture: 'https://cdn-icons-png.flaticon.com/512/149/149071.png',
+    picture: sara,
   },
   {
     name: 'Edna',
-    picture: 'http://s2.glbimg.com/FmBS8r6jCZNjGQ7dIRNooMSu-eH6d2h4XlhUeNEf3eVIoz-HdGixxa_8qOZvMp3w/s.glbimg.com/og/rg/f/original/2012/07/27/edna_291_388.jpg',
+    picture: edna,
   },
   {
     name: 'Vinícius',
-    picture: 'https://cdn-icons-png.flaticon.com/512/149/149071.png',
+    picture: vini,
   },
   {
     name: 'Gabriel',
-    picture: 'https://cdn-icons-png.flaticon.com/512/149/149071.png',
+    picture: gabriel,
   },
 ];

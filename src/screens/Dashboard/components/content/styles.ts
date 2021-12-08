@@ -7,6 +7,7 @@ export const Container = styled.div`
   flex-direction: column;
   background-color: #F2FBFF;
   padding: 30px;
+  overflow-y: auto;
 `;
 
 export const CardsContainer = styled.div`

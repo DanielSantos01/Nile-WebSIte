@@ -1,8 +1,6 @@
 export const topics: string[] = [
-  'Lorem ipsum dolor sit amet; ',
-  'Sit optio odit qui quae deleniti et labore;',
-  'Sit ipsam maiores sed vero internos eum molestias;',
-  'Aut deleniti voluptas;',
-  'Est nihil sint sed consequatur architecto in dignissimos',
-  'Accusantium nam aliquam tempora.',
+  'Leitura constante dos dados do seu tanque;',
+  'Mais autonomia e segurança para você;',
+  'Maior controle sobre a qualidade da água;',
+  'Feedbacks contínuos.',
 ];

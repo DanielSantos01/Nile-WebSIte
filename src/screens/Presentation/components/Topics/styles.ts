@@ -20,13 +20,13 @@ export const InfraContainer = styled.div`
 `;
 
 export const Infra = styled.img`
-  width: 70%;
-  height: 60%;
-  transition: 0.4s;
+  width: 60%;
+  height: 50%;
+  transition: 0.8s;
   border-radius: 10px;
 
   :hover {
-    transform: scale(1.03);
+    clip-path: circle(100%);
     cursor: pointer;
   }
 `;
