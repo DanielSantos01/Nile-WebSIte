@@ -9,7 +9,7 @@ import {
 } from './styles';
 
 const Presentation: React.FC = () => (
-  <ContentContainer>
+  <ContentContainer id="topics">
     <List />
 
     <InfraContainer>

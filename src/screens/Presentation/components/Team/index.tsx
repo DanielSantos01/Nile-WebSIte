@@ -13,7 +13,7 @@ import {
 
 const Team: React.FC = () => {
   return (
-    <Container>
+    <Container id="team">
       <Title>Conheça a equipe</Title>
 
       <ContentContainer>

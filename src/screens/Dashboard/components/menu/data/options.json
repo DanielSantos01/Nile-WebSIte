@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Dashboard",
+    "route": ""
+  },
+  {
+    "label": "Histórico",
+    "route": ""
+  },
+  {
+    "label": "Relatório",
+    "route": ""
+  }
+]

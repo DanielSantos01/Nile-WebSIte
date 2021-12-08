@@ -16,7 +16,7 @@ import {
 
 const AboutUs: React.FC = () => {
   return (
-    <Container>
+    <Container id="about-us">
       <Title>Sobre o Nile</Title>
       <ContentContainer>
         <ImageContainer>

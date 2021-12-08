@@ -1,6 +1,7 @@
 /* eslint-disable react/style-prop-object */
 /* eslint-disable arrow-body-style */
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 
 import logo from '../../assets/logo.png';
 import {
@@ -17,6 +18,8 @@ import {
 } from './styles';
 
 const Login: React.FC = () => {
+  const { push } = useHistory();
+
   return (
     <Container>
       <LogoContainer>
@@ -36,7 +39,7 @@ const Login: React.FC = () => {
           <Label clickable style={{ marginLeft: 'auto' }}>Esqueci minha senha</Label>
         </AuxContainer>
 
-        <LoginButton>
+        <LoginButton onClick={() => push('/app')}>
           <ButtonTextContent>Login</ButtonTextContent>
         </LoginButton>
       </ContentContainer>

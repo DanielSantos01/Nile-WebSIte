@@ -1,11 +1,11 @@
 const headerOptions: any[] = [
   {
     label: 'Sobre o Nile',
-    route: '',
+    route: '#about-us',
   },
   {
     label: 'Conheça a equipe',
-    route: '',
+    route: '#team',
   },
   {
     label: 'Fale conosco',

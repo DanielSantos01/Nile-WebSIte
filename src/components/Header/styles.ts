@@ -34,7 +34,7 @@ export const LoginContainer = styled.div`
   }
 `;
 
-export const Label = styled.p`
+export const Label = styled.a`
   font-family: ${({ theme }) => theme.fonts.primary};
   color: rgba(0, 0, 0, 0.8);
   font-size: 1.1vw;

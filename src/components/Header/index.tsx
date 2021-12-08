@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable global-require */
 /* eslint-disable arrow-body-style */
 import React, { useCallback } from 'react';
@@ -18,7 +19,7 @@ const Header: React.FC = () => {
   const { push } = useHistory();
 
   const mountOptions = useCallback(() => {
-    const options: JSX.Element[] = headerOptions.map((data) => <Label>{data.label}</Label>);
+    const options: JSX.Element[] = headerOptions.map((data) => <Label href={data.route}>{data.label}</Label>);
     return options;
   }, []);
 
