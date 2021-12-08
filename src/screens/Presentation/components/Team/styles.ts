@@ -37,9 +37,10 @@ export const ItemContainer = styled.div`
 export const Image = styled.img`
   height: 80%;
   width: 80%;
-  background-color: #bdbdbd;
-  clip-path: circle(40%);
+  background-color: rgba(0, 0, 200, 0.5);
+  clip-path: circle(35%);
   transition: 0.4s;
+  object-fit: contain;
 
   :hover {
     transform: scale(1.02);

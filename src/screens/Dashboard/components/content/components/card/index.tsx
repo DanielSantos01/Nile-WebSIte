@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Chart from 'react-apexcharts';
 
 import { Container, Description, Title } from './styles';
@@ -10,7 +10,7 @@ const Card: React.FC<CardProps> = ({
   description,
   title,
 }) => {
-  const [options] = useState<any>({
+  const [options, setOptions] = useState<any>({
     series: [value],
     options: {
       chart: {
@@ -82,6 +82,12 @@ const Card: React.FC<CardProps> = ({
       labels: [''],
     },
   });
+
+  useEffect(() => {
+    const copy = { ...options };
+    copy.series = [value];
+    setOptions(copy);
+  }, [value]);
 
   return (
     <Container>

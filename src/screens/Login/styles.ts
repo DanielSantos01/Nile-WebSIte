@@ -47,7 +47,7 @@ export const Input = styled.input`
   min-width: 300px;
   height: 45px;
   background-color: white;
-  color: #BDBDBD;
+  color: rgba(0, 0, 0, 0.6);
   border-radius: 5px;
   padding: 7px;
   border: 1px solid #CCCCCC;

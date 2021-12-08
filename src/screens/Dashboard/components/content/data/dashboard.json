@@ -1,23 +1,27 @@
 [
   {
+    "key": "temperature",
     "title": "Temperatura",
     "description": "lorem ipsum",
     "unit": "°C",
     "value": 45
   },
   {
+    "key": "oxygen",
     "title": "Oxigênio dissolvido",
     "description": "lorem ipsum",
     "unit": "mg/L",
     "value": 2.1
   },
   {
+    "key": "turbidity",
     "title": "Turbidez",
     "description": "lorem ipsum",
     "unit": "NTU",
     "value": 18.9
   },
   {
+    "key": "ph",
     "title": "PH",
     "description": "lorem ipsum",
     "unit": "",

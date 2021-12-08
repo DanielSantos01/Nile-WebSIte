@@ -1,6 +1,6 @@
 import React from 'react';
 
-import infra from '../../../../assets/infra.png';
+import infra from '../../../../assets/infra.jpeg';
 import { List } from './components';
 import {
   Infra,
